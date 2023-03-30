@@ -1,0 +1,164 @@
+:root {
+    --bg-navbar: #024f94;
+    --hover-color: #0be7fb;
+    --border-button-navbar: rgba(0, 0, 0, 0.3);
+    --bg-nav: #1c1c1c;
+    --fb-hover: #4267B2;
+    --ig-hover: #d02f7a;
+    --whats-hover: #25D366;
+    --fb-button: #4267b2;
+    --button-white: #fff;
+    --button-border-hover: #024f94; 
+    --ul-hover: #010b8b;
+    --bg-dropdown: #1c1c1c;
+}
+
+
+.input-group {
+    max-width: 240px;
+    max-height: 10px;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+.navbar {
+    background-color: var(--bg-nav);
+}
+/* BlueBar */
+.blue-bar {
+    background-color: var(--bg-navbar);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container-navbar-blue {
+    max-height: 22px;
+    margin-right: auto;
+    margin-left: auto
+}
+.row2 {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.text-center2 {
+    text-align: center;
+}
+
+.menu-top li a, .menu-top li {
+    display: inline-block;
+    color: var(--button-white );
+    margin-bottom: 0;
+}
+
+.menu-top li {
+    padding: 0 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn-facebook {
+    background: var(--fb-button);
+    border: 1px solid var(--fb-button);
+    color: var(--button-white );
+    cursor: pointer;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.fb:hover {
+    color: var(--fb-hover);
+}
+
+.instagram:hover {
+    color: var(--ig-hover);
+}
+
+.whatsapp:hover {
+    color: var(--whats-hover);
+}
+
+@media(min-width:768px) {
+.container-navbar-blue {
+        width: 750px;
+    }
+}
+
+@media(min-width:992px) {
+    .container-navbar-blue {
+        width: 970px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container-navbar-blue {
+        width: 1170px;
+    }
+}
+
+.container-navbar-blue:before,
+.container-navbar-blue:after,
+.row2:before,
+.row2:after {
+    display: table;
+    content: " ";
+}
+
+.container-navbar-blue:after,
+.row2:after{
+    clear: both;
+}
+
+ul {
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    z-index: 1000;
+} 
+
+/* Fin BlueBar */
+
+/* Nav Dropdown*/
+ul ul li{
+    position: relative;
+    margin: 0px;
+    float: none;
+    display: list-item;
+    min-width: 150px;
+    max-width: 250px;
+    border-bottom: 1px solid var(--border-button-navbar);
+}
+
+ul li ul {
+    border: none;
+    border-bottom: 1px;
+    background-color: var(--bg-dropdown);
+}
+
+ul li ul li a {
+    border-radius: 0;
+    min-height: 45px;
+    min-width: 150px;
+    max-width: 250px;
+    margin-top: 0;
+}
+
+li a {
+    border-radius: .3rem;
+    display: inline-block;
+    color: #fff;
+}
+
+li a:hover {
+    background-color: var(--button-border-hover);
+    color: #fff;
+}
+
+.fa-sort-down{
+    margin-left: 10px;
+} 
+/* End Nav Dropdown*/
