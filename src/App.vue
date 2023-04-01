@@ -4,7 +4,7 @@
 
 <template>
   <header>
-    <NavbarView>    
+    <NavbarView>
     </NavbarView>
   </header>
   <router-view></router-view>

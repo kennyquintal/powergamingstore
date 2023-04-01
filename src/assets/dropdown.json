@@ -1,0 +1,104 @@
+{
+	"dropdownAccesoriosPerifericos": [
+					{
+                        "url_page": "",
+                        "ddOption": "Mouse"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Teclados"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Diademas"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Cámaras Web"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "MousePads"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Kits"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Bases"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Reguladores"
+                    }
+                ],
+                "dropdownComponentes": [
+                    {
+                        "url_page": "",
+                        "ddOption": "Procesadores"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Tarjetas de Video"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Tarjetas Madre"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Memorias Ram"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Unidades SSD"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Unidades HDD internos"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Gabinetes"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Fuentes de Poder"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Iluminación"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Enf. Líquido (AIO)"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Enf. Aire"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Ventilación"
+                    }
+                ],
+                "dropdownSillas": [
+                    {
+                        "url_page": "",
+                        "ddOption": "Cooler Master"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Game Factor"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "Yeyian"
+                    },
+                    {
+                        "url_page": "",
+                        "ddOption": "XZeal"
+                    }
+                ]
+}
