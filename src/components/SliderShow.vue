@@ -32,20 +32,20 @@
             return {
                 carouselItems: [
                     {
-                        img_carousel: '2396982.webp',
-                        label_title: 'Nubes',
-                        carousel_description: 'Tormenta con nubes abstractas'
+                        img_carousel: 'rog2.webp',
+                        label_title: 'Monitores ROG',
+                        carousel_description: 'Los mejores monitores del mercado Asus ROG'
                     },
                     {
-                        img_carousel: 'bonsai.jpg',
-                        label_title: 'Bonsai',
-                        carousel_description: 'Bonsai en la punta de una montaña'
+                        img_carousel: 'aorus.jpg',
+                        label_title: 'Join the Fight',
+                        carousel_description: 'Los mas potente del mercado'
 
                     },
                     {
-                        img_carousel: 'eclipse.jpg',
-                        label_title: 'Eclipse',
-                        carousel_description: 'Eclipse en medio del mar'
+                        img_carousel: 'msi.jpg',
+                        label_title: 'Laptops MSI',
+                        carousel_description: 'La mejor tecnologia en aRGB'
                     }
 
                 ]

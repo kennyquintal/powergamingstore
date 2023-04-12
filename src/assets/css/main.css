@@ -2,7 +2,7 @@
     --bg-navbar: #024f94;
     --hover-color: #0be7fb;
     --border-button-navbar: rgba(0, 0, 0, 0.3);
-    --bg-nav: #1c1c1c;
+    --bg-nav: #000;
     --fb-hover: #4267B2;
     --ig-hover: #d02f7a;
     --whats-hover: #25D366;
@@ -11,6 +11,7 @@
     --button-border-hover: #024f94; 
     --ul-hover: #010b8b;
     --bg-dropdown: #1c1c1c;
+    --bg-stock: #24c464;
 }
 
 body {
@@ -43,6 +44,10 @@ body {
 
 .menu-top li {
     padding: 0 5px;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover {

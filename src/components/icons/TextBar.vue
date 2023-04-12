@@ -1,14 +1,18 @@
 <template>
     <div class="row align-items-start">
         <div class="col-12">
-            <div class="text-bg-primary p-3">Ofertas del Día</div>
+            <div class="text-bg-primary p-3">{{ textTitle }}</div>
         </div>
   </div>
 </template>
 
 <script>
     export default {
-        name: 'TextBar'
+        name: 'TextBar',
+        props: ['textTitle'],
+        setup(props) {
+            return props;
+        }
     }    
 </script>
 
