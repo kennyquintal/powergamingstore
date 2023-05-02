@@ -1,5 +1,5 @@
 <template>
-        <div v-for="(item, index) in cardProduct" :key="index">
+        <div v-for="(item, index) in products" :key="index">
             <div class="card">
                 <div class="img-wrapper"><img :src="'../src/assets/img/' + item.url_product" class="d-block w-100" alt="..."> </div>
                 <div class="card-body">
@@ -38,74 +38,17 @@ import AddCart from './icons/AddCart.vue';
 
     export default {
         name: 'ProductCards',
+        props: {
+            products: {
+                type: Array,
+                required: true
+            }
+        },
         components: {
             AddCart
         },
-        data() {
-            return {
-                cardProduct: [
-                    {
-                        url_product: 'strix.jpg',
-                        producto_title: 'Tarjeta de Video Asus RTX 4090 20Gb VRAM OC',
-                        sku: 'ASUSS4090OC',
-                        price: '40,999',
-                        sup_price: '00',
-                        offer_price: '',
-                        sup_offer_price: '',
-                        stock: '3'
-                    },
-                    {
-                        url_product: 'xpg.jpg',
-                        producto_title: 'Memoria RAM XPG D40 2x8Gb 2600MGHZ',
-                        sku: 'XPGRAM2600MHZ',
-                        price: '1,499',
-                        sup_price: '00',
-                        offer_price: '',
-                        sup_offer_price: '',
-                        stock: '7'
-                    },
-                    {
-                        url_product: 'msi2.jpg',
-                        producto_title: 'Laptop MSI Vengeance 16GB Ram GTX 1650',
-                        sku: 'MSI281923231',
-                        price: '30,499',
-                        sup_price: '00',
-                        offer_price: '25,499',
-                        sup_offer_price: '00',
-                        stock: '2'
-                    },
-                    {
-                        url_product: 'rog4.jpg',
-                        producto_title: 'Laptop ROG 16GB Ram Ryzen 9 5900H FullHD IPS',
-                        sku: 'ROGLAP16R95000H',
-                        price: '25,499',
-                        sup_price: '00',
-                        offer_price: '',
-                        sup_offer_price: '',
-                        stock: '3'
-                    },
-                    {
-                        url_product: 'logi.jpg',
-                        producto_title: 'Teclado Logitech k915 G Pro X Wireless',
-                        sku: 'LOGIK915GPRO',
-                        price: '2,999',
-                        sup_price: '00',
-                        offer_price: '',
-                        sup_offer_price: '',
-                        stock: '9'
-                    },
-                    {
-                        url_product: 'amd.jpg',
-                        producto_title: 'Procesador AMD Ryzen 7950x3D 7ma Gen',
-                        sku: 'AMDR97950X',
-                        price: '15,499',
-                        sup_price: '00',
-                        offer_price: '',
-                        sup_offer_price: '',
-                        stock: '99'
-                    }
-                ]
-            }
+        mounted() {
+            console.log(this.products);
         }
     }
 </script>
