@@ -1,17 +1,17 @@
 <template>
     <footer class="py-5 bg-dark footer">
-        <div class="col-12 footer-card d-flex d-none d-md-block">
-            <div class="card card-footer border-light col-4" >
+        <div class="footer-card d-none d-md-block grid">
+            <div class="card card-footer border-light g-col-4" >
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card card-footer border-light col-4" >
+            <div class="card card-footer border-light g-col-4" >
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card card-footer border-light col-4">
+            <div class="card card-footer border-light g-col-4">
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -41,11 +41,14 @@
         margin-top: 10%;
     }
 
-    .card-footer {
+    /* .card-footer {
         margin: auto;
         max-width: 30em;
+        display: inline-block;
     }
-
+    .footer-card {
+        padding: 0 1em 3vh 1em;
+    } */
     .card-footer:last-child {
         border-radius: var(--bs-card-border-radius);
     }
